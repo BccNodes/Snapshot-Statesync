@@ -18,6 +18,10 @@ wget -O - http://snapshots.bccnodes.com/mainnets/jackal/${SNAP_NAME} | tar xf -
 mv $HOME/.canine/priv_validator_state.json.backup $HOME/.canine/data/priv_validator_state.json
 
 
+wget -O $HOME/.canine/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Jackal%20Mainnet/addrbook.json"
+
+
+
 systemctl start canined.service; \
 journalctl -u canined.service -f --no-hostname
 
