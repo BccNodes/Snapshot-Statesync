@@ -18,7 +18,7 @@ wget -O - http://snapshots.bccnodes.com/mainnets/jackal/${SNAP_NAME} | tar xf -
 mv $HOME/.c4e-chain/priv_validator_state.json.backup $HOME/.c4e-chain/data/priv_validator_state.json
 
 
-wget -O $HOME/.c4e-chain/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Jackal%20Mainnet/addrbook.json"
+wget -O $HOME/.c4e-chain/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Chain4Energy%20Mainnet/addrbook.json"
 
 
 
