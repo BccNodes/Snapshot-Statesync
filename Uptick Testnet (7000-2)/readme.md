@@ -21,7 +21,7 @@ wget -O - http://snapshots.bccnodes.com/testnets/uptick/${SNAP_NAME} | tar xf -
 mv $HOME/.uptickd/priv_validator_state.json.backup $HOME/.uptickd/data/priv_validator_state.json
 
 
-wget -O $HOME/.uptickd/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Acre%20Chain%20Mainnet/addrbook.json"
+wget -O $HOME/.uptickd/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Uptick%20Testnet%20(7000-2)/addrbook.json"
 
 
 
