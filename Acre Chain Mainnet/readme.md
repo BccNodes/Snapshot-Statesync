@@ -21,7 +21,7 @@ wget -O - http://snapshots.bccnodes.com/mainnets/acre/${SNAP_NAME} | tar xf -
 mv $HOME/.acred/priv_validator_state.json.backup $HOME/.acred/data/priv_validator_state.json
 
 
-wget -O $HOME/.acred/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Chain4Energy%20Mainnet/addrbook.json"
+wget -O $HOME/.acred/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Acre%20Chain%20Mainnet/addrbook.json"
 
 
 
