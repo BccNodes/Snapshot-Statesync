@@ -1,6 +1,6 @@
-***2022-12-03_20:58:22    |  LAST_BLOCK_HEIGHT 183422    |   2.4G***
+***2022-12-03_20:58:22    |  LAST_BLOCK_HEIGHT 183422    |   2.4G***    ***Updated daily at 13:00***  
 
-                      ***Updated daily at 13:00***   
+                    
 
 
 
