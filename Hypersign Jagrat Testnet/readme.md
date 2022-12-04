@@ -21,7 +21,7 @@ wget -O - http://snapshots.bccnodes.com/testnets/hypersign/${SNAP_NAME} | tar xf
 mv $HOME/.hid-node/priv_validator_state.json.backup $HOME/.hid-node/data/priv_validator_state.json
 
 
-wget -O $HOME/.hid-node/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Uptick%20Testnet%20(7000-2)/addrbook.json"
+wget -O $HOME/.hid-node/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Hypersign%20Jagrat%20Testnet/addrbook.json"
 
 
 
