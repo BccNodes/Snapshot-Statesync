@@ -15,8 +15,8 @@ mkdir -p ~/.acred/data; \
 cd ~/.acred/data
 
 
-SNAP_NAME=$(curl -s http://snapshots.bccnodes.com/mainnets/acre/ | egrep -o ">acre_9052-1.*\.tar" | tail -n 1 | tr -d '>'); \
-wget -O - http://snapshots.bccnodes.com/mainnets/acre/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/mainnets/acre/ | egrep -o ">acre_9052-1.*\.tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/mainnets/acre/${SNAP_NAME} | tar xf -
 
 mv $HOME/.acred/priv_validator_state.json.backup $HOME/.acred/data/priv_validator_state.json
 
