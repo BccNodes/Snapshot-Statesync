@@ -21,7 +21,7 @@ wget -O - http://snapshots.bccnodes.com/testnets/cardchain/${SNAP_NAME} | tar xf
 mv $HOME/.Cardchain/priv_validator_state.json.backup $HOME/.Cardchain/data/priv_validator_state.json
 
 
-wget -O $HOME/.Cardchain/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Acre%20Chain%20Mainnet/addrbook.json"
+wget -O $HOME/.Cardchain/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Cardchain%20Testnet3/addrbook.json"
 
 
 
