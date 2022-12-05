@@ -12,8 +12,8 @@ mkdir -p ~/.canine/data; \
 cd ~/.canine/data
 
 
-SNAP_NAME=$(curl -s http://snapshots.bccnodes.com/mainnets/jackal/ | egrep -o ">jackal.*tar" | tail -n 1 | tr -d '>'); \
-wget -O - http://snapshots.bccnodes.com/mainnets/jackal/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/mainnets/jackal/ | egrep -o ">jackal.*tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/mainnets/jackal/${SNAP_NAME} | tar xf -
 
 mv $HOME/.canine/priv_validator_state.json.backup $HOME/.canine/data/priv_validator_state.json
 
