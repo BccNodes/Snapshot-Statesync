@@ -15,8 +15,8 @@ mkdir -p ~/.hid-node/data; \
 cd ~/.hid-node/data
 
 
-SNAP_NAME=$(curl -s http://snapshots.bccnodes.com/tesnets/hypersign/ | egrep -o ">jagrat.*\.tar" | tail -n 1 | tr -d '>'); \
-wget -O - http://snapshots.bccnodes.com/testnets/hypersign/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/tesnets/hypersign/ | egrep -o ">jagrat.*\.tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/testnets/hypersign/${SNAP_NAME} | tar xf -
 
 mv $HOME/.hid-node/priv_validator_state.json.backup $HOME/.hid-node/data/priv_validator_state.json
 
