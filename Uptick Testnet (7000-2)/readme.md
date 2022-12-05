@@ -1,4 +1,4 @@
-***2022-12-03_21:17:41    |   LAST_BLOCK_HEIGHT 1003110     |  Updated daily at 13:00     |  4.8G***             
+*** Updated daily at 13:00     |  4.8G***             
 
                     
 
