@@ -15,8 +15,8 @@ mkdir -p ~/.Cardchain/data; \
 cd ~/.Cardchain/data
 
 
-SNAP_NAME=$(curl -s http://snapshots.bccnodes.com/testnets/cardchain/ | egrep -o ">testnet3.*\.tar" | tail -n 1 | tr -d '>'); \
-wget -O - http://snapshots.bccnodes.com/testnets/cardchain/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/testnets/cardchain/ | egrep -o ">testnet3.*\.tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/testnets/cardchain/${SNAP_NAME} | tar xf -
 
 mv $HOME/.Cardchain/priv_validator_state.json.backup $HOME/.Cardchain/data/priv_validator_state.json
 
