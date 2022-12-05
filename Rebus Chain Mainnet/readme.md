@@ -1,5 +1,7 @@
-***UPDATED DAILY 13:00 - 69G***
-```systemctl stop rebusd.service
+***UPDATED DAILY 13:00 - 72G***
+```
+
+systemctl stop rebusd.service
 
 cp $HOME/.rebusd/data/priv_validator_state.json $HOME/.rebusd/priv_validator_state.json.backup
 
@@ -14,4 +16,6 @@ wget -O - https://snapshots.bccnodes.com/mainnets/rebus/${SNAP_NAME} | tar xf -
 mv $HOME/.rebusd/priv_validator_state.json.backup $HOME/.rebusd/data/priv_validator_state.json
 
 systemctl start rebusd.service; \
-journalctl -u rebusd.service -f --no-hostname```
+journalctl -u rebusd.service -f --no-hostname
+
+```
