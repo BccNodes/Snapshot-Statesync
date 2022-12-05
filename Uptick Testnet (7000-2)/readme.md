@@ -15,8 +15,8 @@ mkdir -p ~/.uptickd/data; \
 cd ~/.uptickd/data
 
 
-SNAP_NAME=$(curl -s http://snapshots.bccnodes.com/tesnets/uptick/ | egrep -o ">uptick_7000-2.*\.tar" | tail -n 1 | tr -d '>'); \
-wget -O - http://snapshots.bccnodes.com/testnets/uptick/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/tesnets/uptick/ | egrep -o ">uptick_7000-2.*\.tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/testnets/uptick/${SNAP_NAME} | tar xf -
 
 mv $HOME/.uptickd/priv_validator_state.json.backup $HOME/.uptickd/data/priv_validator_state.json
 
