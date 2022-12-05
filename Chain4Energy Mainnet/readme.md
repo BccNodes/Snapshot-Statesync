@@ -12,8 +12,8 @@ mkdir -p ~/.c4e-chain/data; \
 cd ~/.c4e-chain/data
 
 
-SNAP_NAME=$(curl -s http://snapshots.bccnodes.com/mainnets/c4e/ | egrep -o ">perun-1_2022-12-05.tar" | tail -n 1 | tr -d '>'); \
-wget -O - http://snapshots.bccnodes.com/mainnets/c4e/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/mainnets/c4e/ | egrep -o ">perun-1_2022-12-05.tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/mainnets/c4e/${SNAP_NAME} | tar xf -
 
 mv $HOME/.c4e-chain/priv_validator_state.json.backup $HOME/.c4e-chain/data/priv_validator_state.json
 
