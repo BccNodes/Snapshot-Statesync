@@ -1,4 +1,4 @@
-***UPDATED DAILY 13:00 - 72G***
+***UPDATED DAILY 13:00 - 79G***
 ```
 
 systemctl stop rebusd.service
