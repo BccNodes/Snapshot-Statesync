@@ -15,7 +15,7 @@ mkdir -p ~/.nolus/data; \
 cd ~/.nolus/data
 
 
-SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/tesnets/nolus/ | egrep -o ">nolus-rila.*\.tar" | tail -n 1 | tr -d '>'); \
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/testnets/nolus/ | egrep -o ">nolus-rila.*\.tar" | tail -n 1 | tr -d '>'); \
 wget -O - https://snapshots.bccnodes.com/testnets/nolus/${SNAP_NAME} | tar xf -
 
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
