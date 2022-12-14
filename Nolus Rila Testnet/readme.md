@@ -21,7 +21,7 @@ wget -O - https://snapshots.bccnodes.com/testnets/nolus/${SNAP_NAME} | tar xf -
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
 
 
-wget -O $HOME/.nolus/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Hypersign%20Jagrat%20Testnet/addrbook.json"
+wget -O $HOME/.nolus/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Nolus%20Rila%20Testnet/addrbook.json"
 
 
 
