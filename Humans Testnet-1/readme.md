@@ -18,7 +18,7 @@ wget -O - https://snapshots.bccnodes.com/testnets/humans/${SNAP_NAME} | tar xf -
 mv $HOME/.humans/priv_validator_state.json.backup $HOME/.humans/data/priv_validator_state.json
 
 
-wget -O $HOME/.humans/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Chain4Energy%20Mainnet/addrbook.json"
+wget -O $HOME/.humans/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Humans%20Testnet-1/addrbook.json"
 
 
 
