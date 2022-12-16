@@ -21,7 +21,7 @@ wget -O - https://snapshots.bccnodes.com/mainnets/quicksilver/${SNAP_NAME} | tar
 mv $HOME/.quicksilverd/priv_validator_state.json.backup $HOME/.quicksilverd/data/priv_validator_state.json
 
 
-wget -O $HOME/.quicksilverd/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Acre%20Chain%20Mainnet/addrbook.json"
+wget -O $HOME/.quicksilverd/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/QuickSilver%20Mainnet/addrbook.json"
 
 
 
