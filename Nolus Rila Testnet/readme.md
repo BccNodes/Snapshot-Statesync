@@ -1,4 +1,4 @@
-***  Updated daily at 13:00     |  5.3G***             
+***  Updated daily at 13:00***             
 
                     
 
