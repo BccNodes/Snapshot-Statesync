@@ -18,7 +18,7 @@ wget -O - https://snapshots.bccnodes.com/testnets/mars/${SNAP_NAME} | tar xf -
 mv $HOME/.mars/priv_validator_state.json.backup $HOME/.mars/data/priv_validator_state.json
 
 
-wget -O $HOME/.mars/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Humans%20Testnet-1/addrbook.json"
+wget -O $HOME/.mars/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Mars%20Protocol%20Ares-1%20Testnet/addrbook.json"
 
 
 
