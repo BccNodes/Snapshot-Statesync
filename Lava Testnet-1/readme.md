@@ -18,7 +18,7 @@ wget -O - https://snapshots.bccnodes.com/testnets/lava/${SNAP_NAME} | tar xf -
 mv $HOME/.lava/priv_validator_state.json.backup $HOME/.lava/data/priv_validator_state.json
 
 
-wget -O $HOME/.lava/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Humans%20Testnet-1/addrbook.json"
+wget -O $HOME/.lava/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Lava%20Testnet-1/addrbook.json"
 
 
 
