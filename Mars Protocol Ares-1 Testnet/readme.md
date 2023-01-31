@@ -12,8 +12,8 @@ mkdir -p ~/.mars/data; \
 cd ~/.mars/data
 
 
-SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/testnets/mars/ | egrep -o ">ares-1.*tar" | tail -n 1 | tr -d '>'); \
-wget -O - https://snapshots.bccnodes.com/testnets/mars/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/mainnets/mars/ | egrep -o ">ares-1.*tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots.bccnodes.com/mainnets/mars/${SNAP_NAME} | tar xf -
 
 mv $HOME/.mars/priv_validator_state.json.backup $HOME/.mars/data/priv_validator_state.json
 
