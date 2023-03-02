@@ -18,7 +18,7 @@ wget -O - https://snapshots-2.bccnodes.com/testnets/androma/${SNAP_NAME} | tar x
 mv $HOME/.androma/priv_validator_state.json.backup $HOME/.androma/data/priv_validator_state.json
 
 
-wget -O $HOME/.androma/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Chain4Energy%20Mainnet/addrbook.json"
+wget -O $HOME/.androma/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Androma%20Testnet/addrbook.json"
 
 
 
