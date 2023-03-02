@@ -12,7 +12,7 @@ mkdir -p ~/.androma/data; \
 cd ~/.androma/data
 
 
-SNAP_NAME=$(curl -s https://snapshots-2.bccnodes.com/testnets/androma/ | egrep -o ">androma-1_*tar" | tail -n 1 | tr -d '>'); \
+SNAP_NAME=$(curl -s https://snapshots-2.bccnodes.com/testnets/androma/ | egrep -o ">androma-1_2023-03-02.tar" | tail -n 1 | tr -d '>'); \
 wget -O - https://snapshots-2.bccnodes.com/testnets/androma/${SNAP_NAME} | tar xf -
 
 mv $HOME/.androma/priv_validator_state.json.backup $HOME/.androma/data/priv_validator_state.json
