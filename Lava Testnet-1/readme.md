@@ -1,6 +1,3 @@
-*** Updated daily at 13:00*** 
-
-
 ```
 
 systemctl stop lavad.service
@@ -12,8 +9,8 @@ mkdir -p ~/.lava/data; \
 cd ~/.lava/data
 
 
-SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/testnets/lava/ | egrep -o ">lava-testnet-1_2023-01-23.tar" | tail -n 1 | tr -d '>'); \
-wget -O - https://snapshots.bccnodes.com/testnets/lava/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://snapshots-3.bccnodes.com/lava/ | egrep -o ">lava-testnet-1_2023-03-03.tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://snapshots-3.bccnodes.com/lava/${SNAP_NAME} | tar xf -
 
 mv $HOME/.lava/priv_validator_state.json.backup $HOME/.lava/data/priv_validator_state.json
 
