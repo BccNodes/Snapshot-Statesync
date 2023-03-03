@@ -12,8 +12,8 @@ mkdir -p ~/.c4e-chain/data; \
 cd ~/.c4e-chain/data
 
 
-SNAP_NAME=$(curl -s https://snapshots.bccnodes.com/mainnets/c4e/ | egrep -o ">perun-1.*tar" | tail -n 1 | tr -d '>'); \
-wget -O - https://snapshots.bccnodes.com/mainnets/c4e/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s https://c4e-snapshot.bccnodes.com/c4e/ | egrep -o ">perun-1.*tar" | tail -n 1 | tr -d '>'); \
+wget -O - https://c4e-snapshot.bccnodes.com/c4e/${SNAP_NAME} | tar xf -
 
 mv $HOME/.c4e-chain/priv_validator_state.json.backup $HOME/.c4e-chain/data/priv_validator_state.json
 
@@ -22,7 +22,6 @@ wget -O $HOME/.c4e-chain/config/addrbook.json "https://raw.githubusercontent.com
 
 
 
-systemctl start c4ed.service; \
-journalctl -u c4ed.service -f --no-hostname
+systemctl start c4ed && journalctl -u c4ed.service -f --no-hostname
 
 ```
