@@ -18,7 +18,7 @@ wget -O - https://snapshots-3.bccnodes.com/althea/${SNAP_NAME} | tar xf -
 mv $HOME/.althea/priv_validator_state.json.backup $HOME/.althea/data/priv_validator_state.json
 
 
-wget -O $HOME/.althea/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Androma%20Testnet/addrbook.json"
+wget -O $HOME/.althea/config/addrbook.json "https://raw.githubusercontent.com/BccNodes/Snapshot-Statesync/main/Althea%20Testnet/addrbook.json"
 
 
 
