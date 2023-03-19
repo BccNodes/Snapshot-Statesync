@@ -3,7 +3,7 @@ sudo systemctl stop lavad
 
 cp $HOME/.lava/data/priv_validator_state.json $HOME/.lava/priv_validator_state.json.backup
 
-rm -rf $HOME/.source/data
+rm -rf $HOME/.lava/data
 ```
 
 ```
